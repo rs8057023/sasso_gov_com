@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>نظام الشهادات</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <!-- <header class="head">
+    <button class="globe" id="lang" aria-label="Language">🌐</button>
+    <h1 data-t="title"></h1>
+    <div class="logo" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 34 34"><rect x="2" y="2" width="30" height="9" rx="2" fill="#0b9bd7"/><rect x="2" y="14" width="13" height="18" rx="3" fill="#14a05a"/><circle cx="24" cy="23" r="8" fill="#b36a1d"/></svg></div>
+  </header> -->
+  
+<header class="head">
+  <button class="globe" id="lang" aria-label="Language">🌐</button>
+
+  <img
+    src="sjs.png"
+    alt="Organization logo and title"
+    class="header-image"
+  >
+</header>
+
+  <div class="bar"><span>›</span><button id="burger" aria-label="Menu" aria-expanded="false">☰</button></div>
+  <nav class="menu" id="menu"><a href="#" data-t="m1"></a><a href="#" data-t="m2"></a><a href="#" data-t="m3"></a></nav>
+  <h2 data-t="h"></h2>
+  <div class="org">
+    <img src="download (1).jfif" alt="Organization Logo" class="org-image">
+  </div>
+  <!-- <div class="pick">
+  <select id="rec"></select>
+</div> -->
+  <div class="slider" id="slider" aria-roledescription="carousel">
+
+  <div class="slide on">
+    <img src="uy.jfif" alt="Factory image 1">
+  </div>
+
+  <div class="slide">
+    <img src="yu.jfif" alt="Factory image 2">
+  </div>
+
+  <div class="slide">
+    <img src="yt.jfif" alt="Factory image 3">
+  </div>
+
+  <button class="arr p" id="prev" aria-label="Previous">‹</button>
+  <button class="arr n" id="next" aria-label="Next">›</button>
+
+  <div class="dots">
+    <i class="on"></i>
+    <i></i>
+    <i></i>
+  </div>
+
+</div>
+  <div class="card"><h3 id="fac"></h3><div class="pill" id="made"></div></div>
+  <div class="fields">
+    <label data-t="f1"></label><output id="o1"></output>
+    <label data-t="f2"></label><output id="o2"></output>
+    <label data-t="f3"></label><output id="o3"></output>
+    <label data-t="f4"></label><output id="o4"></output>
+    <label data-t="f5"></label><output id="o5"></output>
+    <label data-t="f6"></label><output id="o6"></output>
+  </div>
+  <footer><p data-t="foot"></p><p data-t="links"></p></span></footer>
+</div>
+<button class="avatar" id="avatar" aria-label="Assistant">
+  <img src="jk.jfif" alt="Assistant">
+</button>
+<button class="fab" id="fab" aria-label="Help">+</button>
+<div id="bot" role="dialog" aria-label="Assistant"><b data-t="bot"></b><div id="chips"></div><div id="ans"></div></div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
